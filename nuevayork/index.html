@@ -3,87 +3,94 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cómo ahorrar en Nueva York en 2027: trucos, descuentos y mapa | MYNVA</title>
-<meta name="description" content="Ahorra dinero en Nueva York: trucos comprobados, descuentos para tu viaje y un mapa gratis con más de 400 sitios por zonas. Metro, ferri gratis, Broadway barato y más.">
-<link rel="canonical" href="https://guias.mynva.app/nuevayork">
+<title>Guía de Nueva York 2027: mapa gratis y 102 trucos | MYNVA</title>
+<meta name="description" content="La web del libro de MYNVA: mapa gratis con 414 sitios en 15 zonas, trucos para gastar menos y qué resolver antes de viajar desde España o Latinoamérica.">
+<link rel="canonical" href="https://guias.mynva.app/nuevayork/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_ES">
-<meta property="og:title" content="Cómo ahorrar en Nueva York en 2027">
-<meta property="og:description" content="Trucos comprobados, descuentos para tu viaje y un mapa gratis con más de 400 sitios por zonas.">
-<meta property="og:url" content="https://guias.mynva.app/nuevayork">
+<meta property="og:title" content="Guía de Nueva York 2027: mapa gratis y 102 trucos">
+<meta property="og:description" content="Mapa gratis con 414 sitios en 15 zonas y trucos para gastar menos en Nueva York.">
+<meta property="og:url" content="https://guias.mynva.app/nuevayork/">
 <meta property="og:image" content="https://guias.mynva.app/nuevayork/portada.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Cómo ahorrar en Nueva York en 2027","inLanguage":"es","description":"Trucos comprobados, descuentos y mapa gratis para viajar a Nueva York gastando menos.","publisher":{"@type":"Organization","name":"MYNVA"}}
+{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://guias.mynva.app/nuevayork/#web","url":"https://guias.mynva.app/nuevayork/","name":"Guía de Nueva York 2027: mapa gratis y 102 trucos","inLanguage":"es","dateModified":"2026-11-06","about":{"@type":"City","name":"Nueva York"},"mainEntity":{"@id":"https://guias.mynva.app/nuevayork/#libro"}},{"@type":"Book","@id":"https://guias.mynva.app/nuevayork/#libro","name":"Nueva York: Guía de viaje 2027","inLanguage":"es","image":"https://guias.mynva.app/nuevayork/portada.jpg","publisher":{"@type":"Organization","name":"MYNVA"}}]}
 </script>
 <style>
-/* =========================================================
-   MYNVA · Página de recursos de la guía de Nueva York 2027
-   Archivo único (HTML + CSS + un poco de JS), sin dependencias.
-   PARA EDITAR: busca «PEGA_AQUÍ» y sustituye por tu enlace de afiliado.
-   ========================================================= */
-@font-face{ font-family:"Inter Tight"; font-weight:500; src:url("fonts/InterTight-Medium.ttf") format("truetype"); font-display:swap; }
-@font-face{ font-family:"Inter Tight"; font-weight:700; src:url("fonts/InterTight-Bold.ttf") format("truetype"); font-display:swap; }
-@font-face{ font-family:"Inter Tight"; font-weight:800; src:url("fonts/InterTight-ExtraBold.ttf") format("truetype"); font-display:swap; }
-@font-face{ font-family:"Source Serif 4"; font-style:normal; font-weight:400; src:url("fonts/SourceSerif4-Regular.ttf") format("truetype"); font-display:swap; }
-@font-face{ font-family:"Source Serif 4"; font-style:italic; font-weight:400; src:url("fonts/SourceSerif4-Italic.ttf") format("truetype"); font-display:swap; }
-@font-face{ font-family:"Overpass"; font-weight:700; src:url("fonts/Overpass-Bold.ttf") format("truetype"); font-display:swap; }
-:root{ --ink:#141414; --taxi:#F7B500; --paper:#FFFFFF; --cream:#F6F2EA; --muted:#5E5E5E; --street:#00703C; --line:#E6E0D4; }
+/* Mynva Guías · estilo «Pinar» de la app (docs/spec/estilo.md): colores, Manrope y formas.
+   PARA EDITAR: busca los comentarios AFILIADO y cambia cada enlace por el tuyo. */
+@font-face{ font-family:"Manrope"; font-weight:200 800; src:url("fonts/Manrope.ttf") format("truetype"); font-display:swap; }
+:root{ --bg:#F1F3EE; --surface:#FCFDFB; --ink:#18241F; --muted:#5C6A63; --line:#DFE4DC; --brand:#1E5A48; --soft:#E1ECE6; --save:#2B7A3F; --save-soft:#E4F1E6; --warn:#9A5A0C; --warn-soft:#F7EEDD; }
 *{ box-sizing:border-box; }
-body{ margin:0; font-family:"Source Serif 4",Georgia,serif; color:var(--ink); background:var(--paper); line-height:1.5; }
+html{ scroll-behavior:smooth; }
+body{ margin:0; font:400 16px/1.5 "Manrope",system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:var(--bg); }
 a{ color:inherit; }
-.checker{ height:14px; background:conic-gradient(#141414 25%,#F7B500 0 50%,#141414 0 75%,#F7B500 0) 0 0/14px 14px; }
-header{ background:var(--ink); color:#fff; padding:28px 16px 30px; }
 .wrap{ max-width:760px; margin:0 auto; padding:0 16px; }
-header .wrap{ padding:0; }
-.brand{ font:800 12px "Inter Tight",sans-serif; letter-spacing:.42em; color:var(--taxi); }
-h1{ font:800 clamp(36px,9vw,58px)/.95 "Inter Tight",sans-serif; letter-spacing:-.03em; margin:10px 0 8px; }
-.year{ font:700 18px "Inter Tight",sans-serif; } .year span{ background:var(--taxi); color:var(--ink); padding:0 .25em; }
-header p{ font-size:17px; max-width:560px; opacity:.92; margin:14px 0 0; }
-nav{ position:sticky; top:0; z-index:5; background:#fff; border-bottom:1px solid var(--line); }
+header{ background:var(--brand); color:#fff; padding:22px 0 34px; }
+.brand{ display:flex; align-items:center; gap:10px; font-weight:800; font-size:17px; text-decoration:none; }
+.mark{ display:grid; place-items:center; width:34px; height:34px; border-radius:10px; background:#fff; color:var(--brand); font-weight:800; font-size:19px; }
+h1{ font-weight:800; font-size:clamp(34px,8vw,48px); line-height:1.08; letter-spacing:-.02em; margin:26px 0 10px; }
+.year{ font-weight:700; font-size:17px; opacity:.92; }
+header p{ font-size:17px; max-width:600px; opacity:.95; margin:14px 0 0; }
+nav{ position:sticky; top:0; z-index:5; background:var(--surface); border-bottom:1px solid var(--line); }
 nav .wrap{ display:flex; gap:6px; overflow-x:auto; padding:10px 16px; scrollbar-width:none; }
-nav a{ flex:none; font:700 13px "Inter Tight",sans-serif; text-decoration:none; padding:7px 12px; border-radius:999px; background:var(--cream); }
-section{ padding:34px 0 8px; }
-h2{ font:800 22px "Inter Tight",sans-serif; background:var(--ink); color:#fff; padding:10px 14px 9px; margin:0 0 14px; position:relative; }
-h2::before{ content:""; position:absolute; left:0; right:0; top:4px; height:1.5px; background:#fff; }
+nav a{ flex:none; font-weight:700; font-size:14px; text-decoration:none; padding:8px 13px; border-radius:10px; background:var(--soft); color:var(--brand); }
+section{ padding:34px 0 6px; scroll-margin-top:60px; }
+h2{ font-weight:800; font-size:26px; line-height:1.2; letter-spacing:-.01em; margin:0 0 8px; }
 .lead{ color:var(--muted); margin:0 0 16px; }
 .cards{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
-.card{ border:1.5px solid var(--line); border-radius:6px; padding:14px 14px 12px; display:flex; flex-direction:column; gap:6px; background:#fff; }
-.card h3{ font:800 16px "Inter Tight",sans-serif; margin:0; }
-.card p{ margin:0; font-size:15px; color:#333; flex:1; }
-.tag{ align-self:flex-start; font:800 10.5px "Inter Tight",sans-serif; letter-spacing:.14em; text-transform:uppercase; padding:3px 7px; border-radius:3px; background:var(--cream); color:#8A6100; }
-.btn{ display:inline-block; border:0; cursor:pointer; text-align:center; font:800 14px "Inter Tight",sans-serif; text-decoration:none; background:var(--taxi); color:var(--ink); padding:10px 12px; border-radius:4px; margin-top:6px; }
-.btn.alt{ background:var(--ink); color:#fff; }
-.btn.pendiente{ background:#ddd; color:#777; pointer-events:none; }
-.code{ font:700 14px ui-monospace,Menlo,monospace; background:#FFF6DB; border:1.5px dashed var(--taxi); padding:4px 8px; border-radius:3px; }
-.map{ position:relative; width:100%; aspect-ratio:4/5; max-height:620px; border:1.5px solid var(--line); border-radius:6px; overflow:hidden; background:var(--cream); }
+.card{ border-radius:20px; padding:16px; display:flex; flex-direction:column; gap:6px; background:var(--surface); box-shadow:0 1px 3px rgba(24,36,31,.07); }
+.card h3{ font-weight:800; font-size:17px; line-height:1.25; margin:0; }
+.card p{ margin:0; font-size:15px; color:#33423A; flex:1; }
+.tag{ align-self:flex-start; font-weight:700; font-size:12px; padding:3px 9px; border-radius:999px; background:var(--save-soft); color:var(--save); }
+.btn{ display:inline-block; min-height:44px; text-align:center; font-weight:700; font-size:15px; text-decoration:none; background:var(--brand); color:#fff; padding:11px 14px; border:0; border-radius:10px; margin-top:8px; cursor:pointer; font-family:inherit; }
+.btn.alt{ background:var(--soft); color:var(--brand); }
+.map{ position:relative; width:100%; aspect-ratio:4/5; max-height:620px; border-radius:20px; overflow:hidden; background:var(--surface); box-shadow:0 1px 3px rgba(24,36,31,.07); }
 .map iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
-.map .ph{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; text-align:center; padding:20px; color:var(--muted); font:600 15px "Inter Tight",sans-serif; }
+.map .ph{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; text-align:center; padding:20px; color:var(--muted); font-weight:600; font-size:15px; }
 .zonas{ display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 0; }
-.zonas span{ display:inline-flex; align-items:center; gap:6px; font:700 12.5px "Inter Tight",sans-serif; padding:4px 9px 4px 4px; border-radius:999px; background:var(--cream); }
+.zonas span{ display:inline-flex; align-items:center; gap:6px; font-weight:700; font-size:13px; padding:4px 9px 4px 4px; border-radius:999px; background:var(--surface); }
 .zonas b{ display:inline-flex; width:22px; height:22px; border-radius:50%; align-items:center; justify-content:center; color:#fff; font-size:11px; }
-.aviso{ background:#FFF6DB; border:1.5px solid var(--taxi); border-radius:6px; padding:12px 14px; font-size:14.5px; }
-footer{ margin-top:40px; background:var(--ink); color:#ccc; padding:24px 16px 34px; font-size:14px; }
-footer .street{ display:inline-block; background:var(--street); color:#fff; border:2px solid #fff; outline:1.5px solid var(--street); border-radius:4px; padding:3px 10px; font:700 15px Overpass,sans-serif; transform:rotate(-2deg); margin-bottom:12px; }
+.aviso{ background:var(--warn-soft); border-radius:20px; padding:14px 16px; font-size:15px; }
+footer{ margin-top:40px; background:var(--ink); color:#C8D1CB; padding:26px 0 36px; font-size:14px; }
+footer a{ color:#fff; }
+@media (prefers-reduced-motion:reduce){ html{ scroll-behavior:auto; } }
+.btn.hero{ background:#fff; color:var(--brand); }
+section > p{ margin:0 0 12px; } section ul{ margin:0; padding-left:20px; } section li{ margin-bottom:8px; }
+section h3{ font-weight:800; font-size:17px; margin:16px 0 4px; }
+.portada{ float:right; width:130px; height:auto; margin:0 0 10px 16px; border-radius:10px; box-shadow:0 2px 8px rgba(24,36,31,.18); }
+#contacto{ clear:both; }
 </style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231E5A48'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='800' font-size='21' text-anchor='middle' fill='white'%3EM%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-<div class="checker"></div>
 <header><div class="wrap">
-  <div class="brand">MYNVA</div>
-  <h1>Ahorra dinero en Nueva York</h1>
-  <div class="year">Trucos, descuentos y mapa <span>2027</span></div>
-  <p>Fuimos, lo comprobamos y lo hemos reunido aquí: los trucos que más dinero ahorran, los descuentos que recomendamos y un mapa gratis con más de 400 sitios, ordenados por zonas.</p>
+  <a class="brand" href="/nuevayork/"><span class="mark" aria-hidden="true">M</span>Mynva Guías</a>
+  <h1>Guía de Nueva York 2027: mapa gratis y trucos para gastar menos</h1>
+  <p>Esta es la web de nuestro libro. Si vienes del código QR, aquí tienes el mapa y los enlaces actualizados. Si acabas de llegar, puedes usarlo todo gratis: 414 sitios en un mapa de 15 zonas, lo que más ahorra y lo que conviene resolver antes de reservar.</p>
+  <a class="btn hero" href="#mapa">Abrir el mapa</a>
 </div></header>
 
-<nav><div class="wrap">
-  <a href="#trucos">Trucos</a><a href="#mapa">Mapa</a><a href="#antes">Antes de ir</a><a href="#dormir">Dormir</a><a href="#entradas">Entradas y tours</a><a href="#descuentos">Descuentos</a><a href="#libro">La guía</a><a href="#contacto">Escríbenos</a>
+<nav aria-label="Secciones"><div class="wrap">
+  <a href="#mapa">Mapa</a><a href="#trucos">Trucos</a><a href="#esta">ESTA</a><a href="#antes">Antes de volar</a><a href="#dormir">Dormir</a><a href="#entradas">Entradas</a><a href="#libro">El libro</a><a href="#preguntas">Preguntas</a><a href="#contacto">Escríbenos</a>
 </div></nav>
 
 <main class="wrap">
 
+<section id="mapa">
+  <h2>Mapa gratis de Nueva York por zonas</h2>
+  <p class="lead">414 sitios en 15 zonas: Midtown, Central Park, Downtown, DUMBO, Chinatown, el Village, Chelsea, Flatiron, Harlem, Williamsburg, Queens, el Bronx y más. Ábrelo en el móvil y tendrás cada recomendación a un toque.</p>
+  <div class="map" id="mapa-caja" data-src="https://www.google.com/maps/d/embed?mid=1x3B-GwNFO90Wp1fcbSzYB6hrxPX8ixU">
+    <div class="ph"><div>El mapa es de Google y puede usar cookies.<br><button class="btn" id="cargar-mapa" type="button">Cargar el mapa</button></div></div>
+  </div>
+  <a class="btn alt" href="https://www.google.com/maps/d/viewer?mid=1x3B-GwNFO90Wp1fcbSzYB6hrxPX8ixU" rel="noopener" target="_blank">Abrir el mapa en Google Maps</a>
+  <div class="zonas" aria-label="Zonas">
+    <span><b style="background:#EE352E">1</b>Midtown</span><span><b style="background:#00933C">2</b>Central Park</span><span><b style="background:#0039A6">3</b>Downtown</span><span><b style="background:#FF6319">4</b>Brooklyn Bridge</span><span><b style="background:#FCCC0A;color:#111">5</b>Chinatown y LES</span><span><b style="background:#B933AD">6</b>Village y SoHo</span><span><b style="background:#6CBE45">7</b>Chelsea</span><span><b style="background:#996633">8</b>Flatiron</span><span><b style="background:#00ADD0">9</b>Harlem</span><span><b style="background:#A7A9AC;color:#111">10</b>Williamsburg</span><span><b style="background:#2850AD">11</b>Roosevelt y LIC</span><span><b style="background:#808183">12</b>Queens</span><span><b style="background:#4D5357">13</b>Cloisters</span><span><b style="background:#B5121B">14</b>Bronx</span><span><b style="background:#E87722">15</b>Brooklyn más allá</span>
+  </div>
+</section>
+
 <section id="trucos">
-  <h2>Cinco trucos para gastar menos</h2>
+  <h2>Cinco trucos que se notan en el bolsillo</h2>
   <p class="lead">Los que más se notan en el bolsillo, y casi todos son oficiales.</p>
   <div class="cards">
     <div class="card"><span class="tag">Gratis</span><h3>El ferri de Staten Island</h3><p>Pasa cerca de la Estatua de la Libertad y no cuesta nada. No compres billetes a los vendedores de Battery Park.</p></div>
@@ -94,98 +101,99 @@ footer .street{ display:inline-block; background:var(--street); color:#fff; bord
   </div>
 </section>
 
-<section id="mapa">
-  <h2>El mapa de Nueva York por zonas</h2>
-  <p class="lead">Más de 400 sitios en 15 zonas, cada una con su color. Ábrelo en el móvil antes de salir y tendrás cada recomendación a un toque.</p>
-  <div class="map" id="mapa-caja" data-src="https://www.google.com/maps/d/embed?mid=1x3B-GwNFO90Wp1fcbSzYB6hrxPX8ixU">
-    <div class="ph"><div>El mapa es de Google y puede usar cookies.<br><button class="btn" id="cargar-mapa" type="button">Cargar el mapa</button></div></div>
-  </div>
-  <a class="btn alt" href="https://www.google.com/maps/d/viewer?mid=1x3B-GwNFO90Wp1fcbSzYB6hrxPX8ixU" rel="noopener" target="_blank">Abrir el mapa en Google Maps</a>
-  <div class="zonas" aria-label="Zonas">
-    <span><b style="background:#EE352E">1</b>Midtown</span><span><b style="background:#00933C">2</b>Central Park</span><span><b style="background:#0039A6">3</b>Downtown</span><span><b style="background:#FF6319">4</b>Brooklyn Bridge</span><span><b style="background:#FCCC0A;color:#111">5</b>Chinatown y LES</span><span><b style="background:#B933AD">6</b>Village y SoHo</span><span><b style="background:#6CBE45">7</b>Chelsea</span><span><b style="background:#996633">8</b>Flatiron</span><span><b style="background:#00ADD0">9</b>Harlem</span><span><b style="background:#A7A9AC;color:#111">10</b>Williamsburg</span><span><b style="background:#2850AD">11</b>Roosevelt y LIC</span><span><b style="background:#808183">12</b>Queens</span><span><b style="background:#4D5357">13</b>Cloisters</span><span><b style="background:#B5121B">14</b>Bronx</span><span><b style="background:#E87722">15</b>Brooklyn más allá</span>
-  </div>
+<section id="esta">
+  <h2>¿ESTA o visado? Depende de tu pasaporte</h2>
+  <p>Si tienes pasaporte español o chileno, basta con la ESTA. Se tramita en la web oficial, <a href="https://esta.cbp.dhs.gov/" rel="noopener" target="_blank">esta.cbp.dhs.gov</a>, y cuesta 40,62 $. Hazla el mismo día en que compres los vuelos: si te la niegan, aún tendrás tiempo de pedir visado.</p>
+  <p>Si tu pasaporte es de otro país latinoamericano, como México, Colombia, Argentina o Perú, necesitas el visado B1/B2. Míralo antes de pagar nada.</p>
+</section>
+
+<section id="mitos">
+  <h2>Lo que no es gratis, aunque lo leas en internet</h2>
+  <ul>
+    <li><b>El Met y el MoMA:</b> sus entradas gratis o de pago voluntario son para residentes. Un turista paga 30 $.</li>
+    <li><b>La devolución de impuestos en el aeropuerto:</b> en Estados Unidos no existe.</li>
+    <li><b>El Guggenheim:</b> no es gratis los sábados. Hay pago voluntario los martes y domingos por la tarde.</li>
+    <li><b>El museo del 11-S:</b> la franja gratuita es la tarde del lunes, con entradas que salen ese mismo día a las 7:00 de Nueva York.</li>
+  </ul>
 </section>
 
 <section id="antes">
-  <h2>Antes de ir</h2>
+  <h2>Qué dejar resuelto antes de volar</h2>
   <p class="lead">Lo que conviene tener resuelto antes de coger el avión.</p>
   <div class="cards">
-    <div class="card"><span class="tag">Datos en el móvil</span><h3>eSIM Holafly</h3><p>Datos ilimitados desde que aterrizas, sin cambiar de tarjeta.</p><a class="btn" href="PEGA_AQUÍ_HOLAFLY" rel="sponsored noopener" target="_blank">Ver Holafly</a></div>
-    <div class="card"><span class="tag">Datos en el móvil</span><h3>eSIM Airalo</h3><p>Paquetes por GB, más barata si no gastas mucho.</p><a class="btn" href="PEGA_AQUÍ_AIRALO" rel="sponsored noopener" target="_blank">Ver Airalo</a></div>
-    <div class="card"><span class="tag">Imprescindible</span><h3>Seguro de viaje IATI</h3><p>En Estados Unidos un día de hospital cuesta miles de euros. No viajes sin seguro médico.</p><a class="btn" href="PEGA_AQUÍ_IATI" rel="sponsored noopener" target="_blank">Ver IATI</a></div>
-    <div class="card"><span class="tag">Imprescindible</span><h3>Seguro de viaje Heymondo</h3><p>Alternativa con buena app y asistencia por chat.</p><a class="btn" href="PEGA_AQUÍ_HEYMONDO" rel="sponsored noopener" target="_blank">Ver Heymondo</a></div>
-    <div class="card"><span class="tag">Pagar sin comisiones</span><h3>Revolut</h3><p>Paga en dólares sin comisión de cambio (y recuerda: elige siempre USD en el datáfono).</p><a class="btn" href="PEGA_AQUÍ_REVOLUT" rel="sponsored noopener" target="_blank">Abrir Revolut</a></div>
+    <div class="card"><span class="tag">Datos en el móvil</span><h3>eSIM Holafly</h3><p>Datos ilimitados desde que aterrizas, sin cambiar de tarjeta.</p><a class="btn" href="https://esim.holafly.com/es/" rel="noopener" target="_blank">Ver Holafly</a></div>
+    <div class="card"><span class="tag">Datos en el móvil</span><h3>eSIM Airalo</h3><p>Paquetes por GB, más barata si no gastas mucho.</p><a class="btn" href="https://www.airalo.com/es" rel="noopener" target="_blank">Ver Airalo</a></div>
+    <div class="card"><span class="tag">Imprescindible</span><h3>Seguro de viaje IATI</h3><p>En Estados Unidos un día de hospital cuesta miles de euros. No viajes sin seguro médico.</p><a class="btn" href="https://www.iatiseguros.com/" rel="noopener" target="_blank">Ver IATI</a></div>
+    <div class="card"><span class="tag">Imprescindible</span><h3>Seguro de viaje Heymondo</h3><p>Alternativa con buena app y asistencia por chat.</p><a class="btn" href="https://heymondo.es/" rel="noopener" target="_blank">Ver Heymondo</a></div>
+    <div class="card"><span class="tag">Pagar sin comisiones</span><h3>Revolut</h3><p>Paga en dólares sin comisión de cambio (y recuerda: elige siempre USD en el datáfono).</p><a class="btn" href="https://www.revolut.com/es-ES/" rel="noopener" target="_blank">Abrir Revolut</a></div>
     <div class="card"><span class="tag">Trámite oficial</span><h3>ESTA (solo la web oficial)</h3><p>40,62 $ en la web del Gobierno de EE. UU. Las webs intermediarias cobran el doble por lo mismo.</p><a class="btn alt" href="https://esta.cbp.dhs.gov/" rel="noopener" target="_blank">esta.cbp.dhs.gov</a></div>
   </div>
 </section>
 
 <section id="dormir">
-  <h2>Dormir</h2>
+  <h2>Dónde dormir sin pagar de más</h2>
   <p class="lead">Reserva con cancelación gratuita y vuelve a mirar el precio unas semanas antes: si ha bajado, cancelas y reservas de nuevo.</p>
   <div class="cards">
-    <div class="card"><span class="tag">Hoteles</span><h3>Booking</h3><p>Filtra por «cancelación gratuita» y compara siempre el precio total con tasas.</p><a class="btn" href="PEGA_AQUÍ_BOOKING" rel="sponsored noopener" target="_blank">Buscar hotel</a></div>
-    <div class="card"><span class="tag">Alternativa</span><h3>HomeExchange</h3><p>Intercambia tu casa en lugar de pagar hotel.</p><a class="btn" href="PEGA_AQUÍ_HOMEEXCHANGE" rel="sponsored noopener" target="_blank">Ver HomeExchange</a></div>
+    <div class="card"><span class="tag">Hoteles</span><h3>Booking</h3><p>Filtra por «cancelación gratuita» y compara siempre el precio total con tasas.</p><a class="btn" href="https://www.booking.com/" rel="noopener" target="_blank">Buscar hotel</a></div>
+    <div class="card"><span class="tag">Alternativa</span><h3>HomeExchange</h3><p>Intercambia tu casa en lugar de pagar hotel.</p><a class="btn" href="https://www.homeexchange.com/" rel="noopener" target="_blank">Ver HomeExchange</a></div>
   </div>
 </section>
 
 <section id="entradas">
-  <h2>Entradas y tours</h2>
+  <h2>Entradas y tours: qué compensa y qué no</h2>
   <p class="lead">Solo lo que de verdad compensa. Si algo es gratis o se hace mejor por libre, te lo decimos aunque no ganemos nada.</p>
   <div class="cards">
-    <div class="card"><span class="tag">En español</span><h3>Tour de Contrastes (Civitatis)</h3><p>Bronx, Harlem, Queens y Brooklyn en una mañana, con guía en español.</p><a class="btn" href="PEGA_AQUÍ_CIVITATIS_CONTRASTES" rel="sponsored noopener" target="_blank">Ver tour</a></div>
-    <div class="card"><span class="tag">En español</span><h3>Free tours</h3><p>Paga al final lo que quieras (10–15 $ por persona es lo normal).</p><a class="btn" href="PEGA_AQUÍ_FREETOUR" rel="sponsored noopener" target="_blank">Ver free tours</a></div>
-    <div class="card"><span class="tag">Miradores</span><h3>SUMMIT, Edge, Top of the Rock</h3><p>Compra con antelación y compara franjas: el precio cambia según el día y la hora.</p><a class="btn" href="PEGA_AQUÍ_TIQETS" rel="sponsored noopener" target="_blank">Ver entradas</a></div>
-    <div class="card"><span class="tag">Pases</span><h3>CityPASS</h3><p>Solo compensa si vas a usar todas sus atracciones de pago. Haz la cuenta antes de comprarlo.</p><a class="btn" href="PEGA_AQUÍ_CITYPASS" rel="sponsored noopener" target="_blank">Ver CityPASS</a></div>
-  </div>
-</section>
-
-<section id="descuentos">
-  <h2>Códigos de descuento</h2>
-  <p class="lead">Los que tengamos vigentes en cada momento.</p>
-  <div class="cards">
-    <div class="card"><span class="tag">Ejemplo</span><h3>Nombre del descuento</h3><p>Qué incluye y hasta cuándo.</p><p><span class="code">PEGA_AQUÍ_CODIGO</span></p></div>
+    <div class="card"><span class="tag">En español</span><h3>Tour de Contrastes (Civitatis)</h3><p>Bronx, Harlem, Queens y Brooklyn en una mañana, con guía en español.</p><a class="btn" href="https://www.civitatis.com/es/nueva-york/" rel="noopener" target="_blank">Ver tour</a></div>
+    <div class="card"><span class="tag">En español</span><h3>Free tours</h3><p>Paga al final lo que quieras (10–15 $ por persona es lo normal).</p><a class="btn" href="https://www.civitatis.com/es/nueva-york/free-tour-nueva-york/" rel="noopener" target="_blank">Ver free tours</a></div>
+    <div class="card"><span class="tag">Miradores</span><h3>SUMMIT, Edge, Top of the Rock</h3><p>Compra con antelación y compara franjas: el precio cambia según el día y la hora.</p><a class="btn" href="https://www.tiqets.com/es/nueva-york-atracciones-c260932/" rel="noopener" target="_blank">Ver entradas</a></div>
+    <div class="card"><span class="tag">Pases</span><h3>CityPASS</h3><p>Solo compensa si vas a usar todas sus atracciones de pago. Haz la cuenta antes de comprarlo.</p><a class="btn" href="https://www.citypass.com/new-york" rel="noopener" target="_blank">Ver CityPASS</a></div>
   </div>
 </section>
 
 <section id="libro">
-  <h2>La guía completa</h2>
-  <p class="lead"><b>Nueva York: Guía de viaje 2027.</b> 15 zonas con estrellas, tiempo y coste, 102 trucos para ahorrar, atardeceres y las mejores fotos, explicadas para que las hagas tú.</p>
-  <a class="btn" href="PEGA_AQUÍ_AMAZON" rel="noopener" target="_blank">Ver la guía en Amazon</a>
+  <h2>Qué hay en el libro</h2>
+  <img class="portada" src="portada.jpg" alt="Portada de Nueva York: Guía de viaje 2027, con la Estatua de la Libertad" width="200" height="320" loading="lazy">
+  <p><i>Nueva York: Guía de viaje 2027</i> divide la ciudad en 15 zonas, cada una con estrellas, tiempo y coste, para que montes el viaje como un puzle. Incluye planes de 3, 5, 7 y 10 días, 102 trucos para ahorrar, 11 estafas explicadas, un ranking de atardeceres y dónde colocarte para hacer cada foto.</p>
+  <p class="tag">Próximamente en Amazon</p>
+</section>
+
+<section id="quien">
+  <h2>Quién hay detrás</h2>
+  <p>Somos E. S. y N. H., una pareja que firma como MYNVA. En octubre de 2026 viajamos a Nueva York con las mismas dudas que tú. Separamos lo que vivimos de lo que hemos comprobado en fuentes oficiales, y si lo gratis es mejor, lo decimos.</p>
+</section>
+
+<section id="preguntas">
+  <h2>Preguntas frecuentes</h2>
+  <h3>¿El mapa es gratis?</h3><p>Sí. No hace falta comprar el libro ni registrarse.</p>
+  <h3>¿Cuánto cuesta el metro en una semana?</h3><p>No pagas más de 35 $ en 7 días seguidos si usas siempre el mismo móvil o tarjeta.</p>
+  <h3>¿Sirve la web si no tengo el libro?</h3><p>Sí. Aquí tienes el mapa y los recursos. El libro añade las zonas a fondo, los itinerarios y los 102 trucos.</p>
+  <h3>¿Cada cuánto actualizáis los datos?</h3><p>Indicamos la fecha de revisión al pie. Si encuentras un precio distinto, escríbenos.</p>
 </section>
 
 <section id="contacto">
   <h2>Escríbenos</h2>
   <p class="lead">¿Tienes una duda o has encontrado un precio distinto o un sitio cerrado? Cuéntanoslo.</p>
-  <a class="btn alt" href="mailto:PEGA_AQUÍ_EMAIL_CONTACTO?subject=Nueva%20York%202027">Escríbenos</a>
+  <a class="btn alt" href="mailto:hello.mynva.es@gmail.com?subject=Nueva%20York%202027">Escríbenos</a>
 </section>
 
 <section>
-  <div class="aviso"><b>Transparencia.</b> Algunos enlaces de esta página son de afiliado: si compras desde ellos, nos llevamos una pequeña comisión y a ti no te cuesta más. Solo recomendamos lo que recomendaríamos igual sin comisión.</div>
+  <div class="aviso"><b>Transparencia.</b> Algunos enlaces pueden ser de afiliado: si compras desde ellos, podemos recibir una comisión y a ti no te cuesta más. Solo recomendamos lo que recomendaríamos igual sin comisión.</div>
 </section>
 
 </main>
 
 <footer><div class="wrap">
-  <div class="street">Broadway &amp; 42 St</div>
-  <div>MYNVA · <i>Nueva York: Guía de viaje 2027</i> · E. S. y N. H.</div>
+    <div>Mynva Guías · <i>Nueva York: Guía de viaje 2027</i></div>
   <div style="margin-top:6px">Datos comprobados en noviembre de 2026. Pueden cambiar: mira siempre la web oficial.</div>
   <div style="margin-top:6px"><a href="aviso-legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad</a> · <a href="cookies.html">Cookies</a></div>
 </div></footer>
 
 <script>
-  // Los botones con enlace sin rellenar se ven en gris para que se note qué falta.
-  document.querySelectorAll('a.btn').forEach(a => {
-    const h = a.getAttribute('href') || '';
-    if (h.startsWith('PEGA_AQU') || h === '#') a.classList.add('pendiente');
-  });
-
   // El mapa de Google solo se carga si la persona lo pide, para no instalar cookies antes.
   const caja = document.getElementById('mapa-caja'), boton = document.getElementById('cargar-mapa');
   boton.addEventListener('click', () => {
-    const src = caja.dataset.src;
-    if (src.startsWith('PEGA_AQU')) return;
     const f = document.createElement('iframe');
-    f.src = src; f.title = 'Mapa de Nueva York por zonas'; f.loading = 'lazy';
+    f.src = caja.dataset.src; f.title = 'Mapa de Nueva York por zonas'; f.loading = 'lazy';
     caja.replaceChildren(f);
   });
 </script>
